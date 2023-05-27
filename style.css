@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+textarea:focus,
+input:focus {
+  outline: none;
+}
+
+.cont {
+  padding: 40px;
+  background-color: #d8bfd8;
+  min-height: 100vh;
+}
+
+.head-cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.paw-icon {
+  margin: 20px;
+  font-size: 25px;
+}
+
+.head {
+  color: black;
+  font-family: "Roboto";
+  font-size: 50px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.sub-head {
+  color: black;
+  font-family: "Roboto";
+  font-size: 35px;
+  margin-top: 60px;
+}
+
+.spans {
+  font-size: 35px;
+  font-weight: 500;
+}
+
+.todos-input {
+  height: 45px;
+  border: 0;
+  border-radius: 10px;
+  margin-top: 15px;
+  width: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-family: "Roboto";
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.buttons {
+  margin-top: 15px;
+  height: 40px;
+  width: 80px;
+  border: 0;
+  border-radius: 20px;
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+  background-color: rgb(0, 0, 0);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  cursor: pointer;
+}
+
+.checkbox {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.todolist {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.list-cont {
+  background-color: white;
+  min-height: 40px;
+  border-left: 8px solid;
+  border-radius: 5px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  justify-content: space-between;
+  white-space: normal;
+}
+
+.list-content {
+  font-size: 14px;
+  font-family: "Bree Serif";
+}
+
+.delete-icon {
+  font-size: 18px;
+  color: black;
+}
+
+.checked {
+  text-decoration: line-through;
+}
